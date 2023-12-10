@@ -21,10 +21,22 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "package": "com.nicolinho.DividirCuentaApp",
+      "runtimeVersion": {
+        "policy": "appVersion"
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "05b3cce2-1a8f-4b28-84c1-4aa508c71ac3"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/05b3cce2-1a8f-4b28-84c1-4aa508c71ac3"
     }
   }
 }
